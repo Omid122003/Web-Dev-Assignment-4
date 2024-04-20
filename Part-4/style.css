@@ -1,5 +1,6 @@
 html, body {
   margin: 0;
+  padding: 0;
 }
 
 html {
@@ -10,16 +11,30 @@ html {
 body {
   overflow: hidden;
   height: inherit;
+  margin: 0;
+}
+
+canvas {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+p {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
 }
 
 h1 {
   font-size: 2rem;
   letter-spacing: -1px;
   position: absolute;
-  margin: 0;
+  margin: 0; 
   top: -4px;
   right: 5px;
-
   color: transparent;
   text-shadow: 0 0 4px white;
 }
